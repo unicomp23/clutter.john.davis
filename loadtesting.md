@@ -1,4 +1,3 @@
-<div style="overflow-x:auto;">
 | Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1kv2.128.consumers | 5.0 | 18082.0 | 8.0 | 8.0 | 8.0 | 9.0 | 42.0 | 263.0 | 7111.2 | 12207.1 | 126 |
@@ -28,4 +27,3 @@
 | 1kv2.base | 6.0 | 18090.0 | 8.0 | 8.0 | 8.0 | 9.0 | 34.0 | 288.59 | 6494.19 | 13141.12 | 116 |
 | 1kv2.base | 6.0 | 12801.0 | 9.0 | 8.0 | 9.0 | 9.0 | 34.0 | 241.0 | 6553.36 | 9403.39 | 128 |
 | 1kv2.base | 5.0 | 22185.0 | 9.0 | 8.0 | 9.0 | 9.0 | 35.0 | 266.0 | 7199.01 | 14932.76 | 118 |
-</div>
