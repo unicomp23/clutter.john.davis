@@ -4,6 +4,8 @@ kafka version: 3.3.2<br>
 az count: 3<br>
 brokers per az: 6<br>
 round-trip latency measurement: kafka producer(msk)->kafka consumer(msk)->redis stream(memorydb)<br>
+test run time: 30 minutes
+producer rate: 1 event/s
 <br>
 <br>
 ec2 nodes: 256<br>
