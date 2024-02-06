@@ -6,16 +6,6 @@ brokers per az: 6<br>
 round-trip latency measurement: kafka producer(msk)->kafka consumer(msk)->redis stream(memorydb)<br>
 <br>
 <br>
-ec2 nodes: 128<br>
-per ec2 node: 8 producers, 8 redis stream readers, 1 consumer group worker<br>
-
-| Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| base | 6.0 | 18090.0 | 8.0 | 8.0 | 8.0 | 9.0 | 34.0 | 288.59 | 6494.19 | 13141.12 | 116 |
-| base | 6.0 | 12801.0 | 9.0 | 8.0 | 9.0 | 9.0 | 34.0 | 241.0 | 6553.36 | 9403.39 | 128 |
-| base | 5.0 | 22185.0 | 9.0 | 8.0 | 9.0 | 9.0 | 35.0 | 266.0 | 7199.01 | 14932.76 | 118 |
-<br>
-<br>
 ec2 nodes: 256<br>
 per ec2 node: 4 producers, 4 redis stream readers, 1 consumer group worker<br>
 
