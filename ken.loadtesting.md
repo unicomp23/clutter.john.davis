@@ -1,4 +1,4 @@
-kafka topic partitions: 256<br>
+kafka topic partitions: 128<br>
 msk cluster type: kafka.m5.xlarge<br>
 kafka version: 3.3.2<br>
 az count: 3<br>
