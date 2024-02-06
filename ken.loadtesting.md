@@ -17,6 +17,7 @@ producer rate: 1 event/s<br>
 <br>
 <br>
 initial load test<br>
+
 | Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1kv2.m5.2xlarge.128node.128consumer | 5.0 | 11410.0 | 8.0 | 7.0 | 8.0 | 8.0 | 28.0 | 56.0 | 820.24 | 8767.42 | 126 |
