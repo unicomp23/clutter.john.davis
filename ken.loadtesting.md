@@ -6,6 +6,15 @@ brokers per az: 6<br>
 round-trip latency measurement: kafka producer(msk)->kafka consumer(msk)->redis stream(memorydb)<br>
 test run time: 30 minutes<br>
 producer rate: 1 event/s<br>
+producer/consumer pairs per host: 8
+<br>
+<br>
+128 m5.xlarge test driver hosts (producer, end consumer)<br>
+16 m5.xlarge4 consumer group worker hosts with 8 consumer group workers per hosts (so 128 total worker processes)<br>
+
+| Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1kv2.m5.4xlarge.ken | 6.0 | 3594.0 | 10.0 | 9.0 | 10.0 | 13.0 | 47.0 | 86.0 | 779.2 | 2748.32 | 120 |
 <br>
 <br>
 128 m5.xlarge test driver hosts (producer, end consumer)<br>
