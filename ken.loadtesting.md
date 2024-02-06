@@ -8,8 +8,8 @@ test run time: 30 minutes<br>
 producer rate: 1 event/s<br>
 <br>
 <br>
-128 m5.xlarge test driver hosts (producer, end consumer)
-32 m5.large consumer group worker hosts with 4 consumer group workers per hosts (so 128 total worker processes)
+128 m5.xlarge test driver hosts (producer, end consumer)<br>
+32 m5.xlarge2 consumer group worker hosts with 4 consumer group workers per hosts (so 128 total worker processes)<br>
 
 | Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
