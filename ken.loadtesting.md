@@ -15,6 +15,7 @@ producer/consumer pairs per host: 8
 | Directory | Min | Max | Median | 25th percentile | 50th percentile | 75th percentile | 99th percentile | 99.9th percentile | 99.99th percentile | 99.999th percentile | JSON File Count |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1kv2.m5.8xlarge.ken | 5.0 | 7266.0 | 9.0 | 8.0 | 9.0 | 11.0 | 37.0 | 66.0 | 196.0 | 1504.26 | 143 |
+| 1kv2.m5.8xlarge.ken | 5.0 | 3669.0 | 9.0 | 8.0 | 9.0 | 11.0 | 39.0 | 491.4 | 1332.24 | 1530.42 | 129 |
 | 1kv2.m5.8xlarge.ken | 5.0 | 4992.0 | 9.0 | 8.0 | 9.0 | 10.0 | 437.0 | 2632.0 | 3763.0 | 4491.0 | 125 |
 <br>
 <br>
